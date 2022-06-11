@@ -20,13 +20,13 @@ pub fn find_max_consecutive_ones(nums: &[i32]) -> i32 {
 }
 
 #[test]
-fn max_consecutive_ones_example_1() {
+fn max_consecutive_ones_ex_1() {
     let nums = [1, 1, 0, 1, 1, 1];
     assert_eq!(3, find_max_consecutive_ones(&nums));
 }
 
 #[test]
-fn max_consecutive_ones_example_2() {
+fn max_consecutive_ones_ex_2() {
     let nums = [1, 0, 1, 1, 0, 1];
     assert_eq!(2, find_max_consecutive_ones(&nums));
 }

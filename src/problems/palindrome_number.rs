@@ -15,18 +15,19 @@ pub fn is_palindrome(x: i32) -> bool {
 }
 
 #[test]
-fn is_palindrome_example_1() {
+fn is_palindrome_ex_1() {
     let x = 121;
     assert!(is_palindrome(x));
 }
 
 #[test]
-fn is_palindrome_example_2() {
+fn is_palindrome_ex_2() {
     let x = -121;
     assert!(!is_palindrome(x));
 }
+
 #[test]
-fn is_palindrome_example_3() {
+fn is_palindrome_ex_3() {
     let x = 10;
     assert!(!is_palindrome(x));
 }

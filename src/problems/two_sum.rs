@@ -16,20 +16,21 @@ pub fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32> {
 }
 
 #[test]
-fn two_sum_example_1() {
+fn two_sum_ex_1() {
     let nums = vec![2, 7, 11, 15];
     let target = 9;
     assert_eq!(vec![0, 1], two_sum(nums, target));
 }
 
 #[test]
-fn two_sum_example_2() {
+fn two_sum_ex_2() {
     let nums = vec![3, 2, 4];
     let target = 6;
     assert_eq!(vec![1, 2], two_sum(nums, target));
 }
+
 #[test]
-fn two_sum_example_3() {
+fn two_sum_ex_3() {
     let nums = vec![3, 3];
     let target = 6;
     assert_eq!(vec![0, 1], two_sum(nums, target));

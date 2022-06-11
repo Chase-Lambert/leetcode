@@ -34,19 +34,19 @@ fn get_val(symbol: char) -> i32 {
 }
 
 #[test]
-fn roman_to_int_example_1() {
+fn roman_to_int_ex_1() {
     let s = "III".to_string();
     assert_eq!(3, roman_to_int(s));
 }
 
 #[test]
-fn roman_to_int_example_2() {
+fn roman_to_int_ex_2() {
     let s = "LVIII".to_string();
     assert_eq!(58, roman_to_int(s));
 }
 
 #[test]
-fn roman_to_int_example_3() {
+fn roman_to_int_ex_3() {
     let s = "MCMXCIV".to_string();
     assert_eq!(1994, roman_to_int(s));
 }
